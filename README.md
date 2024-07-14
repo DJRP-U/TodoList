@@ -41,12 +41,12 @@ Este es un proyecto de aplicación web de lista de tareas desarrollado con Djang
 4. Configura la base de datos MySQL en settings.py.
 5. Realiza las migraciones:
    ```sh
-   python manage.py makemigrations
-   python manage.py migrate
+   python3 manage.py makemigrations
+   python3 manage.py migrate
    ```
 6. Iniciar el servidor de desarrollo de Django
    ```sh
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 7. Instalar las dependencias de frontend
    ```sh
