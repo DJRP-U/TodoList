@@ -38,8 +38,8 @@ Este es un proyecto de aplicación web de lista de tareas desarrollado con Djang
    ```sh
    pip install -r requirements.txt
    ```
-4. Configura la base de datos MySQL en settings.py.
-5. Realiza las migraciones:
+4. Configurar la base de datos MySQL en settings.py.
+5. Realizar las migraciones:
    ```sh
    python3 manage.py makemigrations
    python3 manage.py migrate
