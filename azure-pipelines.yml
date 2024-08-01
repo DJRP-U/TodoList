@@ -10,7 +10,7 @@ pool:
   name: Default
   demands:
   - agent.name -equals agent-laptop-1
-
+steps:
 - task: AzureContainerApps@1
   inputs:
     appSourcePath: '$(Build.SourcesDirectory)/src'
