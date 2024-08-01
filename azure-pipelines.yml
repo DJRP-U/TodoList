@@ -16,6 +16,7 @@ steps:
     appSourcePath: '$(Build.SourcesDirectory)/src'
     azureSubscription: 'Azure for Students(b1a9be0c-3adb-4b54-9b44-14b4d64810e1)'
     acrName: 'evalu3'
+    acrUsername: 'evalu3'
     dockerfilePath: '$(Build.SourcesDirectory)/'
     containerAppName: 'evaluacion'
     resourceGroup: 'DefaultResourceGroup-CUS'
