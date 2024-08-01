@@ -18,3 +18,4 @@ steps:
     acrName: 'ev03'
     dockerfilePath: '$(Build.SourcesDirectory)/'
     containerAppName: 'evaluacion'
+    containerAppEnvironment: 'managedEnvironment-DefaultResource-848f'
